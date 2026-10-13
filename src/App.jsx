@@ -4,9 +4,9 @@ import ProductList from "./components/ProductList";
 import "./App.css";
 
 export default function App() {
-  // TODO：商品を管理する
-  // TODO：ローディングを管理する
-  // TODO：エラーメッセージを管理する　loading:true　が　ローディング中
+  // TODO：商品を管理する　
+  // TODO：ローディングを管理する　loading:true　が　ローディング中
+  // TODO：エラーメッセージを管理する　error
 
   useEffect(() => {
     async function fetchProducts() {

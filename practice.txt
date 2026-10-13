@@ -1,6 +1,5 @@
-00
-viteでインストール
-Appの中身を全部削除
+npm installを実行
+
 Fake Store API　エンドポイント
 商品一覧：https://fakestoreapi.com/products
 カテゴリー一覧：https://fakestoreapi.com/products/categories
