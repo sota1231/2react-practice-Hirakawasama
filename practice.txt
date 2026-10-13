@@ -1,0 +1,31 @@
+00
+viteでインストール
+Appの中身を全部削除
+Fake Store API　エンドポイント
+商品一覧：https://fakestoreapi.com/products
+カテゴリー一覧：https://fakestoreapi.com/products/categories
+
+
+01
+APIから商品データを取得する
+useState / useEffect / fetch
+Appコンポーネントにて以下の機能を実装してください。
+- useState で商品一覧を管理する。
+- useEffect を使用し、初回表示時にAPIから商品一覧を取得する。
+- 取得したデータを state に保存する。
+- 通信に失敗した場合はエラーメッセージを表示する。
+
+- 取得中は「読み込み中...」と表示する。
+ヒント：response.json() でレスポンスをJSONに変換します。
+
+
+02
+商品一覧を表示する
+map() / JSX / key
+ProductListコンポーネントにて以下の機能を実装してください。
+（ProductCardコンポーネントを使って表示させてください）
+- 商品データを map() で展開する。
+- 商品名・価格・画像・カテゴリを表示する。
+- 商品ごとに適切な key を指定する。
+- 商品が0件の場合は「商品がありません」と表示する。
+ヒント：APIから取得した配列を、どのように複数のJSX要素に変換するか考えましょう。
